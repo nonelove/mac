@@ -13,3 +13,8 @@
 - git config --global user.name khu
 - git config --global user.email hukim99@gmail.com
 - git config --global pull.rebase true
+- git config --global push.default simple
+
+### pathogen
+    mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+    curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
